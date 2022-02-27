@@ -1,0 +1,1 @@
+https://github.com/criveracrum/spring-petclinic.git
