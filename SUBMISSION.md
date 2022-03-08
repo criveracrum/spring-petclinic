@@ -24,7 +24,9 @@ Chadwick Rivera-Crum 1978229
 
 # DOCKER COMPOSE - APP SERVER AND MYSQL
 - Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
+
 [docker-compose.yml](docker-compose.yml)
+- Including this screen cap just to show build
 ![Capture of build from dockerfile](images/docker-build-both.png)
 - Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
 [application-mysql.properties file](src/main/resources/application-mysql.properties)
