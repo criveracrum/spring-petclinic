@@ -4,6 +4,8 @@ Chadwick Rivera-Crum 1978229
 # DOCKER
 - Your dockerfile. Please provide a link to this file rather than a screen capture.
 ![My Dockerfile](Dockerfile)
+- [My Dockerfile](Dockerfile) 
+
 
 - Your running docker instance as shown by a ps command.
 ![Running Docker Instance](images/Docker_ps.png)
