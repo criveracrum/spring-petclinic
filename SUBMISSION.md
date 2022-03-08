@@ -3,8 +3,8 @@ Chadwick Rivera-Crum 1978229
 
 # DOCKER
 - Your dockerfile. Please provide a link to this file rather than a screen capture.
-![My Dockerfile](Dockerfile)
 - [My Dockerfile](Dockerfile) 
+- [Original docker file without MySQL](Dockerfile_original)
 
 
 - Your running docker instance as shown by a ps command.
@@ -24,9 +24,13 @@ Chadwick Rivera-Crum 1978229
 
 # DOCKER COMPOSE - APP SERVER AND MYSQL
 - Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
-
+[docker-compose.yml](docker-compose.yml)
+![Capture of build from dockerfile](images/docker-build-both.png)
 - Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
+[application-mysql.properties file](src/main/resources/application-mysql.properties)
 
 - The output from the docker-compose up command.
+![Docker-compose up for both](images/docker-compose-both.png)
 
 - Your browser accessing the “Veterinarians” page of the website from your local con- tainer.
+![Vet page from App/Server in Container](images/spring-vet-both.png)
