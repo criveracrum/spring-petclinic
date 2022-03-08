@@ -1,35 +1,28 @@
 # Deliverables [50 pts]
 Chadwick Rivera-Crum 1978229
 
+# DOCKER
+- Your dockerfile. Please provide a link to this file rather than a screen capture.
+![My Dockerfile](Dockerfile)
 
-- Your GitHub account showing that is has been forked from the depaulcdm/spring- petclinic repository. This doesn’t  
-- actually need an image – I can see it from your repository.
-![Build after forking](images/fork-build.png)
+- Your running docker instance as shown by a ps command.
+![Running Docker Instance](images/Docker_ps.png)
 
-- Your GitHub Actions dashboard showing a successful first build.
-![Actions with first successful build](images/Actions-first-build.png)
+- Your browser accessing the main page of the website from your local container.
+![Running Docker Instance](images/Spring_running_docker.png)
 
+# DOCKER COMPOSE - MYSQL ONLY
+- The output from the docker-compose up command
 
-- Your GitHub repository with the readme.md file selected showing the code that you changed to update the badge.
-![Readme.md with badge code](images/Readme-adding-badge.png)
+- Your browser accessing the “Veterinarians” page of the website from your local container when you run the application from the host system.
 
-- Your GitHub repository with the readme.md file selected showing the build success status after you’ve updated the badge 
-![Readme Badge with successful build](images/Readme-with-first-badge-build.png)
+- A section of the stack trace generated when you attempt to run the application container that has been updated to use MySQL.
 
-- The section of the POM file showing the coordinates after you’ve commented them out.
-![POM with commented coordinates](images/POM-breaking-change.png)
+# DOCKER COMPOSE - APP SERVER AND MYSQL
+- Your updated docker-compose.yml file containing the application server, built from your local Dockerfile, and the existing MySQL configuration. Please provide a link to this file rather than a screen capture.
 
-- Your GitHub Actions dashboard showing the unsuccessful build after the breaking change.
-![Actions after breaking change](images/Actions-breaking-build.png)
+- Your updated application-mysql.properties file containing the URL change for the database server. Please provide a link to this file rather than a screen capture.
 
-- Your GitHub repository with the readme.md file selected showing the build failed status after the GitHub workflow fails.
-![Readme with build fail](images/Readme-badge-failed.png)
+- The output from the docker-compose up command.
 
-- The section of the POM file showing the coordinates after you’ve fixed them.
-![POM with fixed coordinates](images/POM-fixed-coordinates.png)
-
-- Your GitHub Actions dashboard showing the successful build after the breaking change has been fixed.
-![Actions success after fix](images/Actions-after-fix.png)
-
-- Your GitHub repository with the readme.md file selected showing the build success status after the GitHub workflow has  
-![Readme after fix success](images/Readme-after-fix-success.png)
+- Your browser accessing the “Veterinarians” page of the website from your local con- tainer.
